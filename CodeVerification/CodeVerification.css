@@ -1,0 +1,71 @@
+:root{
+    background-color: white;
+    color: black;
+    font-family: 'Gilroy ☞';
+}
+
+.back{
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.back h1{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.back p{
+    line-height: 20px;
+    margin-top: -10px;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.back span{
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 36px;
+    font-size: 18px;
+    border:  none;
+    border-bottom: 2px solid #999;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: dodgerblue;
+  }
+
+  .code p{
+    margin-left: 35px;
+  }
+
+  .code a{
+    color: #2980B9;
+    text-underline-offset: 5px;
+  }
+  
+  .countdown {
+    color: #2980B9;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .countdown p{
+    margin-top: 4rem;
+  }
+
+  .Resend{
+    color: #2980B9;
+    text-underline-offset: 5px;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: -5px;
+  }

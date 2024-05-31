@@ -1,0 +1,135 @@
+:root{
+    font-family: 'Gilroy ☞';
+}
+
+.title{
+   display: flex;
+   width: 50%;
+   /* background-color: #0000EE; */
+   height: 30vh;
+   margin-top: -60px;
+   align-items: center;
+   justify-content: center;
+}
+
+.title h1{
+    font-weight: 600;
+}
+
+.back img{
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: -100px; 
+    height: 20vh; 
+  }
+
+.container input{
+    margin-top: 12px;
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #2980B9;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.email-inpt{
+    margin-top: 60px;
+}
+
+.password-box{
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.labelpw{
+    margin-top: 50px;
+}
+
+  .eye-icon {
+    position: absolute;
+    top: 435px;
+    right: 20%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .eye-icon i {
+    width: 20px;
+    height: 20px;
+  }
+ 
+  .btm{
+    display: flex;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.btm-down{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btm-down p{
+    width: 200px;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.btm-down a{
+    margin-left: 50px;
+    margin-top: -5px;
+    color: red;
+    text-underline-offset: 5px;
+}
+
+.btm2{
+    margin-top: -10px;
+    text-underline-offset: 5px;
+}
+
+.btm2 a{
+    color: #0000EE;
+}
+
+
+.Login{
+    margin-top: 80px;
+    margin-left: 50px;
+    color: white;
+    font-family: "Gilroy ☞";
+    font-size: 18px;
+    font-weight: 600;
+    border-style: none;
+    padding: 12px;
+    width: 320px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(41,128,185,1) 26%, rgba(41,77,114,1) 100%);
+}
+
+.Login2{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: white;
+    font-family: "Gilroy ☞";
+    font-size: 18px;
+    font-weight: 600;
+    border-style: none;
+    padding: 12px;
+    width: 320px;
+    border-radius: 8px;
+    background-color: #2980B9;
+}

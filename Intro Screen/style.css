@@ -1,0 +1,78 @@
+:root{
+    font-family: 'Gilroy ☞';
+}
+
+.logo{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+}
+
+.logo1{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    object-fit: contain;
+}
+
+.title1{
+    display: flex;
+    width: 400px;
+    height: -20vh;
+    margin-left: -265px;
+    margin-top: 90px;
+    font-size: 13px;
+}
+
+.btn{
+    margin-left: 3rem;
+    margin-top: -4rem;
+}
+
+.btn button{
+    font-family: 'Gilroy ☞';
+    background-color: #2980B9;
+    color: white;
+    padding: 10px;
+    width: 320px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px black;
+    border: none;
+    margin-left: 55rem;
+    transition: box-shadow 0.3 ease-in-out;
+}
+
+button:hover{
+    box-shadow: 2rem;
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+}
+
+@media screen and (max-width: 600px) {
+    .logo1{
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        object-fit: contain;
+    }
+    
+    .title1 {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .btn button{
+        margin-left: -30px;
+    }
+}
